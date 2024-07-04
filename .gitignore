@@ -1,6 +1,6 @@
 .vscode
 *.log
-/data/download/*
+backend/data/download/*.json
 /__pycache__
 node_modules
 /migrations
