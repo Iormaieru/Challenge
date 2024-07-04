@@ -1,0 +1,8 @@
+.vscode
+*.log
+/data/download/*
+/__pycache__
+node_modules
+/migrations
+db.sqlite3
+backend/Script

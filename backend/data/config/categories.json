@@ -1,0 +1,62 @@
+{
+  "politica": [
+    "gobierno",
+    "elección",
+    "política",
+    "presidente",
+    "ministro",
+    "oposición",
+    "congreso",
+    "ley"
+  ],
+  "economia": [
+    "economía",
+    "mercado",
+    "dinero",
+    "negocio",
+    "dolar",
+    "inflación",
+    "bolsa",
+    "inversion",
+    "Wall Street",
+    "inversores",
+    "Reserva Federal",
+    "tipos de interés"
+  ],
+  "deportes": ["deporte", "partido", "equipo", "jugador"],
+  "Tech": [
+    "tecnología",
+    "internet",
+    "software",
+    "hardware",
+    "programación",
+    "informática",
+    "inteligencia artificial"
+  ],
+  "entretenimiento": ["cine", "música", "teatro", "espectáculo", "famoso"],
+  "salud": ["salud", "enfermedad", "medicina", "hospital", "doctor"],
+  "ciencia": ["ciencia", "investigación", "científico", "descubrimiento"],
+  "vehiculos": [
+    "auto",
+    "coche",
+    "moto",
+    "camion",
+    "vehículo",
+    "carretera",
+    "conductor",
+    "taller",
+    "mecanico"
+  ],
+  "policial": [
+    "policía",
+    "delito",
+    "crimen",
+    "detenido",
+    "juez",
+    "abogado",
+    "fallecido",
+    "víctima",
+    "acusado",
+    "muerto"
+  ]
+}
