@@ -39,5 +39,5 @@ El proyecto se puede correr de dos formas, de forma local y en Docker.
 3. **/api/v1/analyze-sentiments/**: Se encarga de clasificar las noticias como positivas, neutras o negativas. Tal como se mencionó anteriormente, se utilizan librerías con modelos preentrenados. Para una clasificación más eficiente, hay que entrenar los modelos con el fin requerido.
 4. **/api/v1/generate-report-and-download/**: Se encarga de generar un informe y descargar un archivo JSON, el cual se guarda en `backend/data/download/*_data_summary.json`.
 
-URL Schema de las API: Aquí se puede ver la documentación de las API:
+Swagger: Aquí se puede ver la documentación de las API
 `http://127.0.0.1:8000/api/schema/swagger-ui/`
