@@ -34,7 +34,7 @@
     "inteligencia artificial"
   ],
   "entretenimiento": ["cine", "música", "teatro", "espectáculo", "famoso"],
-  "salud": ["salud", "enfermedad", "medicina", "hospital", "doctor"],
+  "salud": ["salud", "enfermedad", "medicina", "hospital", "doctor", "virus"],
   "ciencia": ["ciencia", "investigación", "científico", "descubrimiento"],
   "vehiculos": [
     "auto",

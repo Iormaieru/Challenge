@@ -10,8 +10,6 @@ Se procede al análisis de los sentimientos de cada noticia, con una IMPORTANTE 
 
 Por último, se genera un archivo JSON que contiene un resumen de los datos analizados (opté por el título y la URL de la publicación, pero se podría cambiar por el campo de preferencia), las 10 palabras clave más frecuentes, los 5 temas más populares con sus respectivos conteos, la distribución de artículos por categoría y un listado de las fuentes de noticias más activas.
 
-## Pre-requisitos
-
 El proyecto se puede correr de dos formas, de forma local y en Docker.
 
 ### Local
@@ -41,3 +39,24 @@ El proyecto se puede correr de dos formas, de forma local y en Docker.
 
 URL Schema de las API: Aquí se puede ver la documentación de las API:
 `http://127.0.0.1:8000/api/schema/swagger-ui/`
+
+--------------------------------------------------------- o ---------------------------------------------------------------
+
+# Script para obtención y análisis de artículos de NEWS API
+
+Este script realiza la acción completa de la API desarrollada en Django, obteniendo como resultado final un archivo con su análisis.
+
+## Pre-requisitos
+
+Es necesario tener instalado Python 3.10 o superior.
+
+## Forma de ejecución
+
+1. Crear un entorno virtual y activarlo.
+2. Ejecutar el script `dependencies.sh`, ubicado en `backend/build/cmd/dependencies.sh`.
+   - Observación: Darle permiso de ejecución al script si es necesario con `chmod +x dependencies.sh`.
+3. Una vez instaladas las dependencias, ejecutar el script `run_backend.sh`, ubicado en `backend/build/cmd/run_backend.sh`.
+4. Abrir el script `app.py`, ubicado en la carpeta `backend/Script/app.py`.
+5. Al final del script, añadir la API KEY.
+6. Ejecutar el script.
+7. El archivo final se guarda en el siguiente directorio: `backend/data/download`
